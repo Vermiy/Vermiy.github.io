@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+a {
+         padding: 2px; 
+         text-decoration: none; 
+         color: inherit;
+    }
+
+a:hover {
+        background: #f73; 
+        color: yellow;
+        text-decoration: none;
+        color: inherit;
+   }
+
+::selection {
+background: #D2691E; /* Safari */
+}
+::-moz-selection {
+background: #D2691E; /* Firefox */
+}
+
+.underline {
+   border-bottom: 2px solid currentColor;
+   border-bottom-color: darkorange;
+}
+
+.Caption {
+  color: white;
+  margin-left: 3%;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+
+.Chapter {
+  color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.Data {
+  color: gray;
+  margin-left: 7%;
+  margin-top: -1%;
+}
+
+.CaptionDescription{
+  color: white;
+  margin-top: -1%;
+  margin-left: 7%;
+}
+
+.CaptionPoint{
+  margin-left: 7%;
+  color: white;
+}
